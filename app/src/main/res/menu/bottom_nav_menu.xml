@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Home"/>
+    <item
+        android:id="@+id/bottom_history"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="History"/>
+    <item
+        android:id="@+id/bottom_insights"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Insights"/>
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Profile"/>
+</menu>

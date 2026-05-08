@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2E7D32"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥛 Add Milk Entry"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter today's milk slip details"
+                android:textColor="#C8E6C9"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Morning Session -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MORNING SESSION"
+            android:textColor="#2E7D32"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liters"
+                android:textColor="#757575"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/etMorningLiters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 6.5"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fat %"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"/>
+
+            <EditText
+                android:id="@+id/etMorningFat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 4.2"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount Received (₹)"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"/>
+
+            <EditText
+                android:id="@+id/etMorningAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 185"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Evening Session -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EVENING SESSION"
+            android:textColor="#2E7D32"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liters"
+                android:textColor="#757575"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/etEveningLiters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 5.5"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fat %"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"/>
+
+            <EditText
+                android:id="@+id/etEveningFat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 3.9"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount Received (₹)"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"/>
+
+            <EditText
+                android:id="@+id/etEveningAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 165"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Cow Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COW DETAILS"
+            android:textColor="#2E7D32"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cow Name"
+                android:textColor="#757575"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/etCowName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. Gouri"
+                android:inputType="text"
+                android:padding="12dp"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSaveMilk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE MILK ENTRY"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:padding="14dp"/>
+
+        <Button
+            android:id="@+id/btnBackMilk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#757575"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"/>
+
+    </LinearLayout>
+</ScrollView>

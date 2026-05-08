@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1B5E20"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insights"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expense breakdown and AI suggestions"
+                android:textColor="#A5D6A7"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chartContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_margin="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AI Suggestion"
+                android:textColor="#1B5E20"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvAiSuggestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading AI suggestion..."
+                android:textColor="#374151"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnRefreshAI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Refresh AI Suggestion"
+                android:backgroundTint="#1B5E20"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBackInsights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#757575"
+            android:textColor="#FFFFFF"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

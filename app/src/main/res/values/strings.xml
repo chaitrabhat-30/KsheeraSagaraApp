@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KsheeraSagara</string>
+    <string-array name="expense_categories">
+        <item>Fodder</item>
+        <item>Medical</item>
+        <item>Labor</item>
+        <item>Electricity</item>
+        <item>Other</item>
+    </string-array>
+</resources>
