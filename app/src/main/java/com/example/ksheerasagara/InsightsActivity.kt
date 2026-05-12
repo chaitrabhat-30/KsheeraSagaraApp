@@ -60,7 +60,7 @@ class InsightsActivity : AppCompatActivity() {
 
     private val geminiModel = GenerativeModel(
         modelName = "gemini-pro",
-        apiKey = "AIzaSyDwfCGsWT206ORrZa-usLOHbe0qsm2OpC4"
+        apiKey = BuildConfig.GEMINI_API_KEY
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

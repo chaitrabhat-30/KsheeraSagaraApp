@@ -17,6 +17,10 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -24,6 +28,12 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            buildConfigField("String", "GEMINI_API_KEY",
+                "\"${project.findProperty("GEMINI_API_KEY") ?: ""}\"")
+        }
+        debug {
+            buildConfigField("String", "GEMINI_API_KEY",
+                "\"${project.findProperty("GEMINI_API_KEY") ?: ""}\"")
         }
     }
 
@@ -51,5 +61,4 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("com.google.ai.client.generativeai:generativeai:0.7.0")
-
 }
