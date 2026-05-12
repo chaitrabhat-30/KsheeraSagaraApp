@@ -26,8 +26,6 @@ Dairy farmers receive a daily milk slip but never calculate their real earnings 
 - UI: Material Design with Navigation Drawer
 - Min SDK: Android 7.0 (API 24)
 
-## Screenshots
-Coming soon!
 
 ## Developer
 **Chaitra Bhat**
