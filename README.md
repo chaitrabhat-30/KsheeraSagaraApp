@@ -1,5 +1,5 @@
-# Ksheera-Sagara 
-### Dairy Profit Tracker App for Karnataka Farmers
+# Ksheera-Sagara (Dairy Profit Tracker App)
+### Daily Dairy Profit Tracker  for Karnataka Farmers
 
 ## About
 Ksheera-Sagara is an Android mobile application designed for dairy farmers to track their daily milk income and expenses, and calculate their actual monthly profit or loss. 
